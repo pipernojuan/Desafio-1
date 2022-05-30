@@ -1,0 +1,90 @@
+.historiafoto{
+    margin-top: 185px;
+    padding-top: 185px;
+    margin-bottom: 85px;
+    padding-bottom: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-family: $fuente2;
+    font-size: 2rem;
+}
+.fotofondo{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.336) 100%), url(../media/twochurrosfoto1.jpg);
+    background-size: cover;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.margenes{
+    font-family: $fuente1;
+    font-size: 3rem;
+    color: $color2;
+    margin-top: 45px;
+}
+.boton{
+    .btn-check:focus+.btn-primary, .btn-primary:focus{
+        box-shadow: none;
+    }
+    .btn-primary{
+        color: $color2;
+        background-color: transparent;
+        border-color: $color1;
+        border-width: 5px;
+        margin-bottom: 30px;
+        transition: all 300ms;
+        &:hover{
+            transform: scale(1.25);
+        }
+        body.dark &{
+            color: #ffffff;
+            background-color: transparent;
+            border-color: $color2;
+            border-width: 5px;
+            &:hover{
+                transform: scale(1.25);
+            }
+        }
+    }
+    .offcanvas{
+        background-color: $color1;
+        body.dark &{
+            background-color: $color2;
+        }
+        .offcanvas-header{
+            .offcanvas-title{
+                color: #ffffff;
+                font-size: 20px;
+            }
+        }
+        .offcanvas-body{
+            .social{
+                display: flex;
+                justify-content:center;
+                font-size: 40px;
+                a{
+                color: $color2;
+                transition: all 300ms;
+                &:hover{
+                    transform: scale(1.25);
+                    color: black;
+                    }
+                }
+                .rs{
+                    margin: 50px;
+                }
+                body.dark &{
+                    a{
+                        color: $color3;
+                        transition: all 300ms;
+                        &:hover{
+                            transform: scale(1.25);
+                            color: #ffffff;
+                            }
+                        }
+                }
+            }
+        }
+    }
+}

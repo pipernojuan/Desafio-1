@@ -1,0 +1,46 @@
+.contacto1{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.formulario{
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: $color3;
+    font-family: $fuente1;
+    p{
+        color: $color2;
+        body.dark &{
+            color: $color1;
+        }
+    }
+    .btn{
+        background-color: $color2;
+        margin-top: 35px;
+        margin-bottom: 5px;
+        border-color: black;
+        color:black;
+        &:hover{
+            background-color: $color3;
+            color: #ffffff;
+            border-color: #ffffff;
+        }
+        body.dark &{
+            background-color: $color1;
+            color: $color3;
+            &:hover{
+                background-color: $color3;
+                color: #ffffff;
+                border-color: #ffffff;
+            }
+        }
+    }
+    .btn-block{
+        width: 100%;
+    }
+}
+
+
+// --bs-btn-hover-bg:
