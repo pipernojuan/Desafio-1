@@ -1,8 +1,6 @@
 debugger
 
 
-// Ciclo FOR estático. Conteo de 0 a 14
-
 let limite = prompt("Ingrese un Nro de 2 cifras:")
     limite = parseInt(limite)
 
